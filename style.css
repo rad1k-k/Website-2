@@ -3,3 +3,37 @@ body, html {
     margin: 0px;
     box-sizing: border-box;
 }
+
+
+/* NAV */
+nav {
+    background: rgba(0,0,0,0.8);
+}
+
+nav ul {
+    width: 1020px;
+    margin: 0px auto;
+}
+
+nav ul li {
+    width: 145px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #e2beae;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
