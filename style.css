@@ -36,4 +36,25 @@ nav ul li a:hover {
     content: "";
     clear: both;
     display: table;
-  }
+}
+
+/* MAIN */
+.firstPhoto {
+    background: black;
+}
+
+.firstPhoto img {
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+main h2 span {
+    font-size: 60px;
+}
